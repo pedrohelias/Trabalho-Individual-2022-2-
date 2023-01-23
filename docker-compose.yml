@@ -1,7 +1,7 @@
 version: '3.7'
 
 services:
-    mongodb:
+    mongodb: #para rodar essa parte, "docker exec -it mongo bash"
         image: mongo:latest
         container_name: mongo
         restart: always
@@ -11,5 +11,23 @@ services:
             MONGO_INITDB_DATABASE: mongo_database 
         ports:
             - 27017:27017
+        volumes:
+            - /mongo-db:/data #tentando arrumar novamente o volumes
+        networks:
+            - network
 
-            
+    aplicationPart: #para rodar essa parte, "docker run -it app:final bash"
+        image: app:final
+        build:
+            context: src
+            dockerfile: dockerfile
+        ports:
+            - 8000:8000
+        networks:
+            - network
+
+
+
+networks:
+    network:
+      driver: bridge
