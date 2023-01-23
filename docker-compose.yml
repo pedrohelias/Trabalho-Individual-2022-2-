@@ -31,3 +31,9 @@ services:
 networks:
     network:
       driver: bridge
+
+
+#comandos uteis: 
+# poetry show --tree -> mostrar a arvore de dependencias adicionadas no poetry
+# poetry init        -> inicializar o poetry em um projeto existente
+# poetry add `cat requirements.txt` -> adicionar os requerimentos de forma mais fácil, ao invés de, manualmente, adicionar um por um
