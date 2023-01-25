@@ -36,4 +36,9 @@ services:
 # poetry init        -> inicializar o poetry em um projeto existente
 # poetry add `cat requirements.txt` -> adicionar os requerimentos de forma mais fácil, ao invés de, manualmente, adicionar um por um
 
+#DOXYGEN
+#doxygen -g -> gerar o doxyfile
+#doxygen -> na mesma pasta do doxyfile, esse comando gera a documentaçaõ automatizada
+#no doxyfile procurar por "input", neste local será onde ele encontrará as entradas para gerar documentaçaṍ
+
 #Link para poetry publicado: https://pypi.org/project/poetry-gces/
