@@ -12,25 +12,23 @@ services:
         ports:
             - 27017:27017
         volumes:
-            - /mongo-db:/data #tentando arrumar novamente o volumes
-        networks:
-            - network
+            - .:/data #tentando arrumar novamente o volumes
+
 
     aplicationPart: #para rodar essa parte, "docker run -it app:final bash"
         image: app:final
         build:
             context: src
             dockerfile: dockerfile
+        command: ["python" ,"main.py"]
         ports:
             - 8000:8000
-        networks:
-            - network
+     
+        depends_on:
+            - mongodb
 
 
 
-networks:
-    network:
-      driver: bridge
 
 
 #comandos uteis: 
