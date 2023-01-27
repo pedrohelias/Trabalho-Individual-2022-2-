@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['columns_5falias_11',['columns_alias',['../classsrc_1_1parser_1_1model__parser_1_1ModelParser.html#ab4e5c99357236bfb33af3fd55c196c8f',1,'src::parser::model_parser::ModelParser']]],
-  ['const_2epy_12',['const.py',['../const_8py.html',1,'']]]
+  ['bpl_11',['bpl',['../classsrc_1_1data__pipeline_1_1feature__engineering_1_1word__embedding_1_1WordEmbedding.html#af6ad013c4738760cd20c91abec5ac580',1,'src::data_pipeline::feature_engineering::word_embedding::WordEmbedding']]]
 ];

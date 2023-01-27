@@ -2,6 +2,8 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
   <compounddef id="namespacesrc_1_1data__pipeline" kind="namespace" language="Python">
     <compoundname>src::data_pipeline</compoundname>
+    <innernamespace refid="namespacesrc_1_1data__pipeline_1_1feature__engineering">src::data_pipeline::feature_engineering</innernamespace>
+    <innernamespace refid="namespacesrc_1_1data__pipeline_1_1pre__processing">src::data_pipeline::pre_processing</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>

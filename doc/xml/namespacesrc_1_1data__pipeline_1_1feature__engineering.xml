@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespacesrc_1_1data__pipeline_1_1feature__engineering" kind="namespace" language="Python">
+    <compoundname>src::data_pipeline::feature_engineering</compoundname>
+    <innernamespace refid="namespacesrc_1_1data__pipeline_1_1feature__engineering_1_1key__smash">src::data_pipeline::feature_engineering::key_smash</innernamespace>
+    <innernamespace refid="namespacesrc_1_1data__pipeline_1_1feature__engineering_1_1word__embedding">src::data_pipeline::feature_engineering::word_embedding</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/helias/Trabalho-Individual-2022-2-/src/data_pipeline/feature_engineering/__init__.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

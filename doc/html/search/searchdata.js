@@ -1,11 +1,11 @@
 var indexSectionsWithContent =
 {
-  0: "_cdfgmprsty",
-  1: "fmpy",
+  0: "_bcdfgkmprstwy",
+  1: "fkmpwy",
   2: "st",
-  3: "_cdfmprty",
-  4: "_gp",
-  5: "cdf",
+  3: "_cdfkmprtwy",
+  4: "_cgp",
+  5: "bcdf",
   6: "t"
 };
 

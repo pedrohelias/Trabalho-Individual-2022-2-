@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['exclude_5fpatterns_90',['exclude_patterns',['../namespaceconf.html#a7ad48fb6f3e9b129c02346ea0d3527c1',1,'conf']]],
-  ['extensions_91',['extensions',['../namespaceconf.html#ae475e080536acb271a0a0efe56c3ba42',1,'conf']]]
+  ['filepath_130',['filepath',['../classsrc_1_1parser_1_1parser__base_1_1ParserBase.html#a56fdc0c365c50483dc9ee93a735cb8c8',1,'src::parser::parser_base::ParserBase']]]
 ];
