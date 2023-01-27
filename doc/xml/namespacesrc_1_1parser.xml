@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespacesrc_1_1parser" kind="namespace" language="Python">
+    <compoundname>src::parser</compoundname>
+    <innernamespace refid="namespacesrc_1_1parser_1_1const">src::parser::const</innernamespace>
+    <innernamespace refid="namespacesrc_1_1parser_1_1feature__engineering__parser">src::parser::feature_engineering_parser</innernamespace>
+    <innernamespace refid="namespacesrc_1_1parser_1_1model__parser">src::parser::model_parser</innernamespace>
+    <innernamespace refid="namespacesrc_1_1parser_1_1parser__base">src::parser::parser_base</innernamespace>
+    <innernamespace refid="namespacesrc_1_1parser_1_1YAML__parser">src::parser::YAML_parser</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/helias/Trabalho-Individual-2022-2-/src/parser/__init__.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

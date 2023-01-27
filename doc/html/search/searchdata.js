@@ -1,11 +1,12 @@
 var indexSectionsWithContent =
 {
-  0: "_cdfgmprty",
+  0: "_cdfgmprsty",
   1: "fmpy",
-  2: "dmpt",
-  3: "_cfmprty",
+  2: "st",
+  3: "_cdfmprty",
   4: "_gp",
-  5: "cdf"
+  5: "cdf",
+  6: "t"
 };
 
 var indexSectionNames =
@@ -15,7 +16,8 @@ var indexSectionNames =
   2: "namespaces",
   3: "files",
   4: "functions",
-  5: "variables"
+  5: "variables",
+  6: "pages"
 };
 
 var indexSectionLabels =
@@ -25,6 +27,7 @@ var indexSectionLabels =
   2: "Namespaces",
   3: "Files",
   4: "Functions",
-  5: "Variables"
+  5: "Variables",
+  6: "Pages"
 };
 

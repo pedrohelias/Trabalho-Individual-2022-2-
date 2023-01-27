@@ -1,3 +1,11 @@
+/*!
+ * \file main.py 
+ * \teste
+ * \teste2
+ * \teste3
+* /
+
+
 import os
 
 from parser.YAML_parser import YAMLParser
@@ -8,7 +16,7 @@ if __name__ != "__main__":
     exit()   
 
 def get_config():
-    initialParser = YAMLParser
+    initialParser = YAMLParser 
     featureEngineringParser = FeatureEngineeringParser
     modelParser = ModelParser
     for file in os.listdir("yamls/"): ##src/yamls

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="teste_8py" kind="file" language="Python">
+    <compoundname>teste.py</compoundname>
+    <innernamespace refid="namespacesrc_1_1teste">src::teste</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacesrc_1_1teste" refkind="compound"><highlight class="normal">print(</highlight><highlight class="stringliteral">&quot;hello<sp/>world&quot;</highlight><highlight class="normal">)</highlight></codeline>
+    </programlisting>
+    <location file="/home/helias/Trabalho-Individual-2022-2-/src/teste.py"/>
+  </compounddef>
+</doxygen>

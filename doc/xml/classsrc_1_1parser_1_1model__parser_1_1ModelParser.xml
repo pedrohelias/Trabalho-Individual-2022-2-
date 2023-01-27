@@ -1,0 +1,234 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classsrc_1_1parser_1_1model__parser_1_1ModelParser" kind="class" language="Python" prot="public">
+    <compoundname>src::parser::model_parser::ModelParser</compoundname>
+    <basecompoundref refid="classsrc_1_1parser_1_1parser__base_1_1ParserBase" prot="public" virt="non-virtual">src.parser.parser_base.ParserBase</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsrc_1_1parser_1_1model__parser_1_1ModelParser_1ab4e5c99357236bfb33af3fd55c196c8f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>src.parser.model_parser.ModelParser::columns_alias</definition>
+        <argsstring></argsstring>
+        <name>columns_alias</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/helias/Trabalho-Individual-2022-2-/src/parser/model_parser.py" line="7" column="1" bodyfile="/home/helias/Trabalho-Individual-2022-2-/src/parser/model_parser.py" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsrc_1_1parser_1_1model__parser_1_1ModelParser_1a69fb7289992886882ca42acfc3d78618" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>src.parser.model_parser.ModelParser::default_keyboard_smash_values</definition>
+        <argsstring></argsstring>
+        <name>default_keyboard_smash_values</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/helias/Trabalho-Individual-2022-2-/src/parser/model_parser.py" line="8" column="1" bodyfile="/home/helias/Trabalho-Individual-2022-2-/src/parser/model_parser.py" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsrc_1_1parser_1_1model__parser_1_1ModelParser_1aeb3b6b6ab65bb4b7186d2331735bc75e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def src.parser.model_parser.ModelParser.__init__</definition>
+        <argsstring>(self, columns_alias)</argsstring>
+        <name>__init__</name>
+        <reimplements refid="classsrc_1_1parser_1_1parser__base_1_1ParserBase_1ad623e6be1ec245e04bad9375799a33e0">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classsrc_1_1parser_1_1model__parser_1_1ModelParser_1ab4e5c99357236bfb33af3fd55c196c8f" kindref="member">columns_alias</ref></type>
+          <defname>columns_alias</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/helias/Trabalho-Individual-2022-2-/src/parser/model_parser.py" line="6" column="1" bodyfile="/home/helias/Trabalho-Individual-2022-2-/src/parser/model_parser.py" bodystart="6" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classsrc_1_1parser_1_1model__parser_1_1ModelParser_1a75775ec95a360895f50b32040f261f76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def src.parser.model_parser.ModelParser.parse</definition>
+        <argsstring>(self, list data)</argsstring>
+        <name>parse</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>list</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/helias/Trabalho-Individual-2022-2-/src/parser/model_parser.py" line="16" column="1" bodyfile="/home/helias/Trabalho-Individual-2022-2-/src/parser/model_parser.py" bodystart="16" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classsrc_1_1parser_1_1model__parser_1_1ModelParser_1ae6b5275e789aff8e949920d3461de729" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def src.parser.model_parser.ModelParser.get_random_forest_address_config</definition>
+        <argsstring>(self, list model)</argsstring>
+        <name>get_random_forest_address_config</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>list</type>
+          <declname>model</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/helias/Trabalho-Individual-2022-2-/src/parser/model_parser.py" line="27" column="1" bodyfile="/home/helias/Trabalho-Individual-2022-2-/src/parser/model_parser.py" bodystart="27" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classsrc_1_1parser_1_1model__parser_1_1ModelParser_1ab6efaf19f07b9cb03f597fa39141bbbe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def src.parser.model_parser.ModelParser.get_columns</definition>
+        <argsstring>(self, input)</argsstring>
+        <name>get_columns</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>input</type>
+          <defname>input</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/helias/Trabalho-Individual-2022-2-/src/parser/model_parser.py" line="50" column="1" bodyfile="/home/helias/Trabalho-Individual-2022-2-/src/parser/model_parser.py" bodystart="50" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classsrc_1_1parser_1_1model__parser_1_1ModelParser_1a5e793d544eacb8c27c3e1cbcfbccd152" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def src.parser.model_parser.ModelParser.get_thresholds</definition>
+        <argsstring>(self, input, columns_set_alias)</argsstring>
+        <name>get_thresholds</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>input</type>
+          <defname>input</defname>
+        </param>
+        <param>
+          <type>columns_set_alias</type>
+          <defname>columns_set_alias</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/helias/Trabalho-Individual-2022-2-/src/parser/model_parser.py" line="59" column="1" bodyfile="/home/helias/Trabalho-Individual-2022-2-/src/parser/model_parser.py" bodystart="59" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classsrc_1_1parser_1_1model__parser_1_1ModelParser_1a9fcf16fd5cf739714fe576b28c78ca14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def src.parser.model_parser.ModelParser.get_keyboard_smash_default_thresholds</definition>
+        <argsstring>(self, columns_set_alias)</argsstring>
+        <name>get_keyboard_smash_default_thresholds</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>columns_set_alias</type>
+          <defname>columns_set_alias</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/helias/Trabalho-Individual-2022-2-/src/parser/model_parser.py" line="78" column="1" bodyfile="/home/helias/Trabalho-Individual-2022-2-/src/parser/model_parser.py" bodystart="78" bodyend="84"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classsrc_1_1parser_1_1model__parser_1_1ModelParser_1a79eb125c18d9bd7a2ae48ef5b3bb203b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def src.parser.model_parser.ModelParser._parse_modal_configs</definition>
+        <argsstring>(self, list data)</argsstring>
+        <name>_parse_modal_configs</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>list</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/helias/Trabalho-Individual-2022-2-/src/parser/model_parser.py" line="19" column="1" bodyfile="/home/helias/Trabalho-Individual-2022-2-/src/parser/model_parser.py" bodystart="19" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>src.parser.model_parser.ModelParser</label>
+        <link refid="classsrc_1_1parser_1_1model__parser_1_1ModelParser"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>src.parser.parser_base.ParserBase</label>
+        <link refid="classsrc_1_1parser_1_1parser__base_1_1ParserBase"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>src.parser.model_parser.ModelParser</label>
+        <link refid="classsrc_1_1parser_1_1model__parser_1_1ModelParser"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>src.parser.parser_base.ParserBase</label>
+        <link refid="classsrc_1_1parser_1_1parser__base_1_1ParserBase"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/helias/Trabalho-Individual-2022-2-/src/parser/model_parser.py" line="4" column="1" bodyfile="/home/helias/Trabalho-Individual-2022-2-/src/parser/model_parser.py" bodystart="4" bodyend="85"/>
+    <listofallmembers>
+      <member refid="classsrc_1_1parser_1_1model__parser_1_1ModelParser_1aeb3b6b6ab65bb4b7186d2331735bc75e" prot="public" virt="non-virtual"><scope>src::parser::model_parser::ModelParser</scope><name>__init__</name></member>
+      <member refid="classsrc_1_1parser_1_1parser__base_1_1ParserBase_1ab1382da5d281c5c19a5720609418bbe8" prot="private" virt="non-virtual"><scope>src::parser::model_parser::ModelParser</scope><name>_get</name></member>
+      <member refid="classsrc_1_1parser_1_1model__parser_1_1ModelParser_1a79eb125c18d9bd7a2ae48ef5b3bb203b" prot="private" virt="non-virtual"><scope>src::parser::model_parser::ModelParser</scope><name>_parse_modal_configs</name></member>
+      <member refid="classsrc_1_1parser_1_1parser__base_1_1ParserBase_1a6b8011ff0d59e310d87c9e3805cefd8a" prot="private" virt="non-virtual"><scope>src::parser::model_parser::ModelParser</scope><name>_try_get</name></member>
+      <member refid="classsrc_1_1parser_1_1model__parser_1_1ModelParser_1ab4e5c99357236bfb33af3fd55c196c8f" prot="public" virt="non-virtual"><scope>src::parser::model_parser::ModelParser</scope><name>columns_alias</name></member>
+      <member refid="classsrc_1_1parser_1_1model__parser_1_1ModelParser_1a69fb7289992886882ca42acfc3d78618" prot="public" virt="non-virtual"><scope>src::parser::model_parser::ModelParser</scope><name>default_keyboard_smash_values</name></member>
+      <member refid="classsrc_1_1parser_1_1parser__base_1_1ParserBase_1a56fdc0c365c50483dc9ee93a735cb8c8" prot="public" virt="non-virtual"><scope>src::parser::model_parser::ModelParser</scope><name>filepath</name></member>
+      <member refid="classsrc_1_1parser_1_1model__parser_1_1ModelParser_1ab6efaf19f07b9cb03f597fa39141bbbe" prot="public" virt="non-virtual"><scope>src::parser::model_parser::ModelParser</scope><name>get_columns</name></member>
+      <member refid="classsrc_1_1parser_1_1model__parser_1_1ModelParser_1a9fcf16fd5cf739714fe576b28c78ca14" prot="public" virt="non-virtual"><scope>src::parser::model_parser::ModelParser</scope><name>get_keyboard_smash_default_thresholds</name></member>
+      <member refid="classsrc_1_1parser_1_1model__parser_1_1ModelParser_1ae6b5275e789aff8e949920d3461de729" prot="public" virt="non-virtual"><scope>src::parser::model_parser::ModelParser</scope><name>get_random_forest_address_config</name></member>
+      <member refid="classsrc_1_1parser_1_1model__parser_1_1ModelParser_1a5e793d544eacb8c27c3e1cbcfbccd152" prot="public" virt="non-virtual"><scope>src::parser::model_parser::ModelParser</scope><name>get_thresholds</name></member>
+      <member refid="classsrc_1_1parser_1_1model__parser_1_1ModelParser_1a75775ec95a360895f50b32040f261f76" prot="public" virt="non-virtual"><scope>src::parser::model_parser::ModelParser</scope><name>parse</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

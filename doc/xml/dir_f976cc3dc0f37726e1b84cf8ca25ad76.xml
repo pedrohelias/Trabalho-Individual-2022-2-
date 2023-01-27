@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_f976cc3dc0f37726e1b84cf8ca25ad76" kind="dir">
+    <compoundname>/home/helias/Trabalho-Individual-2022-2-/sphinxDocs</compoundname>
+    <innerfile refid="conf_8py">conf.py</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/helias/Trabalho-Individual-2022-2-/sphinxDocs/"/>
+  </compounddef>
+</doxygen>

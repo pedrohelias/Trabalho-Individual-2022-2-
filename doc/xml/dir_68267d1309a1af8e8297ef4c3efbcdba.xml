@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir">
+    <compoundname>/home/helias/Trabalho-Individual-2022-2-/src</compoundname>
+    <innerdir refid="dir_d8011c2d3002aeb7fe29b60ec5b6cceb">/home/helias/Trabalho-Individual-2022-2-/src/data_pipeline</innerdir>
+    <innerdir refid="dir_6cd8491d143eb218b70983dbdb3c58bc">/home/helias/Trabalho-Individual-2022-2-/src/parser</innerdir>
+    <innerfile refid="src_2____init_____8py">__init__.py</innerfile>
+    <innerfile refid="dockerfile">dockerfile</innerfile>
+    <innerfile refid="main_8py">main.py</innerfile>
+    <innerfile refid="teste_8py">teste.py</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/helias/Trabalho-Individual-2022-2-/src/"/>
+  </compounddef>
+</doxygen>

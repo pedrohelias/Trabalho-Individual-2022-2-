@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="docker-compose_8yml" kind="file" language="C++">
+    <compoundname>docker-compose.yml</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">version:<sp/>&apos;3.7&apos;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">services:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>mongodb:<sp/>#para<sp/>rodar<sp/>essa<sp/>parte,<sp/>&quot;docker<sp/>exec<sp/>-it<sp/>mongo<sp/>bash&quot;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>image:<sp/>mongo:latest</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>container_name:<sp/>mongo</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>restart:<sp/>always</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>environment:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MONGO_INITDB_ROOT_USERNAME:<sp/>lappis</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MONGO_INITDB_ROOT_PASSWORD:<sp/>lappis</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MONGO_INITDB_DATABASE:<sp/>mongo_database<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ports:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-<sp/>27017:27017</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>volumes:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-<sp/>.:/data<sp/>#tentando<sp/>arrumar<sp/>novamente<sp/>o<sp/>volumes</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>aplicationPart:<sp/>#para<sp/>rodar<sp/>essa<sp/>parte,<sp/>&quot;docker<sp/>run<sp/>-it<sp/>app:final<sp/>bash&quot;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>image:<sp/>app:final</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>build:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>context:<sp/>src</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dockerfile:<sp/>dockerfile</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>command:<sp/>[&quot;python&quot;<sp/>,&quot;main.py&quot;]</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ports:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-<sp/>8000:8000</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>depends_on:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-<sp/>mongodb</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">#comandos<sp/>uteis:<sp/></highlight></codeline>
+<codeline><highlight class="normal">#<sp/>poetry<sp/>show<sp/>--tree<sp/>-&gt;<sp/>mostrar<sp/>a<sp/>arvore<sp/>de<sp/>dependencias<sp/>adicionadas<sp/>no<sp/>poetry</highlight></codeline>
+<codeline><highlight class="normal">#<sp/>poetry<sp/>init<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-&gt;<sp/>inicializar<sp/>o<sp/>poetry<sp/>em<sp/>um<sp/>projeto<sp/>existente</highlight></codeline>
+<codeline><highlight class="normal">#<sp/>poetry<sp/>add<sp/>`cat<sp/>requirements.txt`<sp/>-&gt;<sp/>adicionar<sp/>os<sp/>requerimentos<sp/>de<sp/>forma<sp/>mais<sp/>fácil,<sp/>ao<sp/>invés<sp/>de,<sp/>manualmente,<sp/>adicionar<sp/>um<sp/>por<sp/>um</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">#DOXYGEN</highlight></codeline>
+<codeline><highlight class="normal">#doxygen<sp/>-g<sp/>-&gt;<sp/>gerar<sp/>o<sp/>doxyfile</highlight></codeline>
+<codeline><highlight class="normal">#doxygen<sp/>-&gt;<sp/>na<sp/>mesma<sp/>pasta<sp/>do<sp/>doxyfile,<sp/>esse<sp/>comando<sp/>gera<sp/>a<sp/>documentaçaõ<sp/>automatizada</highlight></codeline>
+<codeline><highlight class="normal">#no<sp/>doxyfile<sp/>procurar<sp/>por<sp/>&quot;input&quot;,<sp/>neste<sp/>local<sp/>será<sp/>onde<sp/>ele<sp/>encontrará<sp/>as<sp/>entradas<sp/>para<sp/>gerar<sp/>documentaçaṍ</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">#Link<sp/>para<sp/>poetry<sp/>publicado:<sp/>https://pypi.org/project/poetry-gces/</highlight></codeline>
+    </programlisting>
+    <location file="/home/helias/Trabalho-Individual-2022-2-/docker-compose.yml"/>
+  </compounddef>
+</doxygen>

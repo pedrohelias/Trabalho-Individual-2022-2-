@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classsrc_1_1parser_1_1parser__base_1_1ParserBase" kind="class" language="Python" prot="public">
+    <compoundname>src::parser::parser_base::ParserBase</compoundname>
+    <derivedcompoundref refid="classsrc_1_1parser_1_1feature__engineering__parser_1_1FeatureEngineeringParser" prot="public" virt="non-virtual">src.parser.feature_engineering_parser.FeatureEngineeringParser</derivedcompoundref>
+    <derivedcompoundref refid="classsrc_1_1parser_1_1model__parser_1_1ModelParser" prot="public" virt="non-virtual">src.parser.model_parser.ModelParser</derivedcompoundref>
+    <derivedcompoundref refid="classsrc_1_1parser_1_1YAML__parser_1_1YAMLParser" prot="public" virt="non-virtual">src.parser.YAML_parser.YAMLParser</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsrc_1_1parser_1_1parser__base_1_1ParserBase_1a56fdc0c365c50483dc9ee93a735cb8c8" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>src.parser.parser_base.ParserBase::filepath</definition>
+        <argsstring></argsstring>
+        <name>filepath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/helias/Trabalho-Individual-2022-2-/src/parser/parser_base.py" line="6" column="1" bodyfile="/home/helias/Trabalho-Individual-2022-2-/src/parser/parser_base.py" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsrc_1_1parser_1_1parser__base_1_1ParserBase_1ad623e6be1ec245e04bad9375799a33e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def src.parser.parser_base.ParserBase.__init__</definition>
+        <argsstring>(self, filepath=&apos;src/yamls/config.yaml&apos;)</argsstring>
+        <name>__init__</name>
+        <reimplementedby refid="classsrc_1_1parser_1_1model__parser_1_1ModelParser_1aeb3b6b6ab65bb4b7186d2331735bc75e">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classsrc_1_1parser_1_1parser__base_1_1ParserBase_1a56fdc0c365c50483dc9ee93a735cb8c8" kindref="member">filepath</ref></type>
+          <defname>filepath</defname>
+          <defval>&apos;src/yamls/config.yaml&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/helias/Trabalho-Individual-2022-2-/src/parser/parser_base.py" line="5" column="1" bodyfile="/home/helias/Trabalho-Individual-2022-2-/src/parser/parser_base.py" bodystart="5" bodyend="7"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classsrc_1_1parser_1_1parser__base_1_1ParserBase_1a6b8011ff0d59e310d87c9e3805cefd8a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def src.parser.parser_base.ParserBase._try_get</definition>
+        <argsstring>(self, dict variable, field, error_msg=None)</argsstring>
+        <name>_try_get</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>dict</type>
+          <declname>variable</declname>
+        </param>
+        <param>
+          <type>field</type>
+          <defname>field</defname>
+        </param>
+        <param>
+          <type>error_msg</type>
+          <defname>error_msg</defname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/helias/Trabalho-Individual-2022-2-/src/parser/parser_base.py" line="8" column="1" bodyfile="/home/helias/Trabalho-Individual-2022-2-/src/parser/parser_base.py" bodystart="8" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classsrc_1_1parser_1_1parser__base_1_1ParserBase_1ab1382da5d281c5c19a5720609418bbe8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def src.parser.parser_base.ParserBase._get</definition>
+        <argsstring>(self, dict variable, field, default_value)</argsstring>
+        <name>_get</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>dict</type>
+          <declname>variable</declname>
+        </param>
+        <param>
+          <type>field</type>
+          <defname>field</defname>
+        </param>
+        <param>
+          <type>default_value</type>
+          <defname>default_value</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/helias/Trabalho-Individual-2022-2-/src/parser/parser_base.py" line="18" column="1" bodyfile="/home/helias/Trabalho-Individual-2022-2-/src/parser/parser_base.py" bodystart="18" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>src.parser.model_parser.ModelParser</label>
+        <link refid="classsrc_1_1parser_1_1model__parser_1_1ModelParser"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>src.parser.feature_engineering_parser.FeatureEngineeringParser</label>
+        <link refid="classsrc_1_1parser_1_1feature__engineering__parser_1_1FeatureEngineeringParser"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>src.parser.parser_base.ParserBase</label>
+        <link refid="classsrc_1_1parser_1_1parser__base_1_1ParserBase"/>
+      </node>
+      <node id="4">
+        <label>src.parser.YAML_parser.YAMLParser</label>
+        <link refid="classsrc_1_1parser_1_1YAML__parser_1_1YAMLParser"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/helias/Trabalho-Individual-2022-2-/src/parser/parser_base.py" line="3" column="1" bodyfile="/home/helias/Trabalho-Individual-2022-2-/src/parser/parser_base.py" bodystart="3" bodyend="22"/>
+    <listofallmembers>
+      <member refid="classsrc_1_1parser_1_1parser__base_1_1ParserBase_1ad623e6be1ec245e04bad9375799a33e0" prot="public" virt="non-virtual"><scope>src::parser::parser_base::ParserBase</scope><name>__init__</name></member>
+      <member refid="classsrc_1_1parser_1_1parser__base_1_1ParserBase_1ab1382da5d281c5c19a5720609418bbe8" prot="private" virt="non-virtual"><scope>src::parser::parser_base::ParserBase</scope><name>_get</name></member>
+      <member refid="classsrc_1_1parser_1_1parser__base_1_1ParserBase_1a6b8011ff0d59e310d87c9e3805cefd8a" prot="private" virt="non-virtual"><scope>src::parser::parser_base::ParserBase</scope><name>_try_get</name></member>
+      <member refid="classsrc_1_1parser_1_1parser__base_1_1ParserBase_1a56fdc0c365c50483dc9ee93a735cb8c8" prot="public" virt="non-virtual"><scope>src::parser::parser_base::ParserBase</scope><name>filepath</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

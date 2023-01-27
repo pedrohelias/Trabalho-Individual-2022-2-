@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classsrc_1_1parser_1_1feature__engineering__parser_1_1FeatureEngineeringParser" kind="class" language="Python" prot="public">
+    <compoundname>src::parser::feature_engineering_parser::FeatureEngineeringParser</compoundname>
+    <basecompoundref refid="classsrc_1_1parser_1_1parser__base_1_1ParserBase" prot="public" virt="non-virtual">src.parser.parser_base.ParserBase</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsrc_1_1parser_1_1feature__engineering__parser_1_1FeatureEngineeringParser_1a1ed83ca6d0303ed34333ce4dc4659ba7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def src.parser.feature_engineering_parser.FeatureEngineeringParser.parse</definition>
+        <argsstring>(self, list data)</argsstring>
+        <name>parse</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>list</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/helias/Trabalho-Individual-2022-2-/src/parser/feature_engineering_parser.py" line="5" column="1" bodyfile="/home/helias/Trabalho-Individual-2022-2-/src/parser/feature_engineering_parser.py" bodystart="5" bodyend="7"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classsrc_1_1parser_1_1feature__engineering__parser_1_1FeatureEngineeringParser_1a468d01994ac83268202c60e8bdc7d32d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def src.parser.feature_engineering_parser.FeatureEngineeringParser._parse_feature_engineering_configs</definition>
+        <argsstring>(self, list data)</argsstring>
+        <name>_parse_feature_engineering_configs</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>list</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/helias/Trabalho-Individual-2022-2-/src/parser/feature_engineering_parser.py" line="8" column="1" bodyfile="/home/helias/Trabalho-Individual-2022-2-/src/parser/feature_engineering_parser.py" bodystart="8" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classsrc_1_1parser_1_1feature__engineering__parser_1_1FeatureEngineeringParser_1a6d6a3a05b022f6a199c2ad25adf09e21" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def src.parser.feature_engineering_parser.FeatureEngineeringParser._get_dataframe</definition>
+        <argsstring>(self, dict columns)</argsstring>
+        <name>_get_dataframe</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>dict</type>
+          <declname>columns</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/helias/Trabalho-Individual-2022-2-/src/parser/feature_engineering_parser.py" line="39" column="1" bodyfile="/home/helias/Trabalho-Individual-2022-2-/src/parser/feature_engineering_parser.py" bodystart="39" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classsrc_1_1parser_1_1feature__engineering__parser_1_1FeatureEngineeringParser_1aa229620bac05de7ad686fb535aa51d23" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def src.parser.feature_engineering_parser.FeatureEngineeringParser._get_features_details</definition>
+        <argsstring>(self, dict features)</argsstring>
+        <name>_get_features_details</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>dict</type>
+          <declname>features</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/helias/Trabalho-Individual-2022-2-/src/parser/feature_engineering_parser.py" line="50" column="1" bodyfile="/home/helias/Trabalho-Individual-2022-2-/src/parser/feature_engineering_parser.py" bodystart="50" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classsrc_1_1parser_1_1feature__engineering__parser_1_1FeatureEngineeringParser_1a5b7986caf584029516729a1124c1f421" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def src.parser.feature_engineering_parser.FeatureEngineeringParser._get_word_embedding_config</definition>
+        <argsstring>(self, dict feature, list columns_alias)</argsstring>
+        <name>_get_word_embedding_config</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>dict</type>
+          <declname>feature</declname>
+        </param>
+        <param>
+          <type>list</type>
+          <declname>columns_alias</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/helias/Trabalho-Individual-2022-2-/src/parser/feature_engineering_parser.py" line="60" column="1" bodyfile="/home/helias/Trabalho-Individual-2022-2-/src/parser/feature_engineering_parser.py" bodystart="60" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="classsrc_1_1parser_1_1feature__engineering__parser_1_1FeatureEngineeringParser_1af91e5249711ad13453901463749d6e41" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def src.parser.feature_engineering_parser.FeatureEngineeringParser._get_keyboard_smash_config</definition>
+        <argsstring>(self, dict features)</argsstring>
+        <name>_get_keyboard_smash_config</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>dict</type>
+          <declname>features</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/helias/Trabalho-Individual-2022-2-/src/parser/feature_engineering_parser.py" line="80" column="1" bodyfile="/home/helias/Trabalho-Individual-2022-2-/src/parser/feature_engineering_parser.py" bodystart="80" bodyend="97"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>src.parser.feature_engineering_parser.FeatureEngineeringParser</label>
+        <link refid="classsrc_1_1parser_1_1feature__engineering__parser_1_1FeatureEngineeringParser"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>src.parser.parser_base.ParserBase</label>
+        <link refid="classsrc_1_1parser_1_1parser__base_1_1ParserBase"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>src.parser.feature_engineering_parser.FeatureEngineeringParser</label>
+        <link refid="classsrc_1_1parser_1_1feature__engineering__parser_1_1FeatureEngineeringParser"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>src.parser.parser_base.ParserBase</label>
+        <link refid="classsrc_1_1parser_1_1parser__base_1_1ParserBase"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/helias/Trabalho-Individual-2022-2-/src/parser/feature_engineering_parser.py" line="3" column="1" bodyfile="/home/helias/Trabalho-Individual-2022-2-/src/parser/feature_engineering_parser.py" bodystart="3" bodyend="97"/>
+    <listofallmembers>
+      <member refid="classsrc_1_1parser_1_1parser__base_1_1ParserBase_1ad623e6be1ec245e04bad9375799a33e0" prot="public" virt="non-virtual"><scope>src::parser::feature_engineering_parser::FeatureEngineeringParser</scope><name>__init__</name></member>
+      <member refid="classsrc_1_1parser_1_1parser__base_1_1ParserBase_1ab1382da5d281c5c19a5720609418bbe8" prot="private" virt="non-virtual"><scope>src::parser::feature_engineering_parser::FeatureEngineeringParser</scope><name>_get</name></member>
+      <member refid="classsrc_1_1parser_1_1feature__engineering__parser_1_1FeatureEngineeringParser_1a6d6a3a05b022f6a199c2ad25adf09e21" prot="private" virt="non-virtual"><scope>src::parser::feature_engineering_parser::FeatureEngineeringParser</scope><name>_get_dataframe</name></member>
+      <member refid="classsrc_1_1parser_1_1feature__engineering__parser_1_1FeatureEngineeringParser_1aa229620bac05de7ad686fb535aa51d23" prot="private" virt="non-virtual"><scope>src::parser::feature_engineering_parser::FeatureEngineeringParser</scope><name>_get_features_details</name></member>
+      <member refid="classsrc_1_1parser_1_1feature__engineering__parser_1_1FeatureEngineeringParser_1af91e5249711ad13453901463749d6e41" prot="private" virt="non-virtual"><scope>src::parser::feature_engineering_parser::FeatureEngineeringParser</scope><name>_get_keyboard_smash_config</name></member>
+      <member refid="classsrc_1_1parser_1_1feature__engineering__parser_1_1FeatureEngineeringParser_1a5b7986caf584029516729a1124c1f421" prot="private" virt="non-virtual"><scope>src::parser::feature_engineering_parser::FeatureEngineeringParser</scope><name>_get_word_embedding_config</name></member>
+      <member refid="classsrc_1_1parser_1_1feature__engineering__parser_1_1FeatureEngineeringParser_1a468d01994ac83268202c60e8bdc7d32d" prot="private" virt="non-virtual"><scope>src::parser::feature_engineering_parser::FeatureEngineeringParser</scope><name>_parse_feature_engineering_configs</name></member>
+      <member refid="classsrc_1_1parser_1_1parser__base_1_1ParserBase_1a6b8011ff0d59e310d87c9e3805cefd8a" prot="private" virt="non-virtual"><scope>src::parser::feature_engineering_parser::FeatureEngineeringParser</scope><name>_try_get</name></member>
+      <member refid="classsrc_1_1parser_1_1parser__base_1_1ParserBase_1a56fdc0c365c50483dc9ee93a735cb8c8" prot="public" virt="non-virtual"><scope>src::parser::feature_engineering_parser::FeatureEngineeringParser</scope><name>filepath</name></member>
+      <member refid="classsrc_1_1parser_1_1feature__engineering__parser_1_1FeatureEngineeringParser_1a1ed83ca6d0303ed34333ce4dc4659ba7" prot="public" virt="non-virtual"><scope>src::parser::feature_engineering_parser::FeatureEngineeringParser</scope><name>parse</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
