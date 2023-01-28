@@ -11,7 +11,7 @@ import sys
 sys.path.insert(0, os.path.abspath('..'))
 
 
-project = 'sphinx-gces'
+project = 'sphinx-gces-pedro helias carlos'
 copyright = '2023, Pedro Helias Carlos'
 author = 'Pedro Helias Carlos'
 release = '0.1.0'
@@ -19,8 +19,11 @@ release = '0.1.0'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ["sphinx.ext.todo", "sphinx.ext.viewcode", "sphinx.ext.autodoc"]
-
+extensions = ["sphinx.ext.todo", "sphinx.ext.viewcode", "sphinx.ext.autodoc", "breathe"]
+breathe_projects = {
+     "sphinxDocs": "../doc/xml/index.xml"
+}
+breathe_default_project = "Trabalho-Individual-2022-2-"
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
