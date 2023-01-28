@@ -15,6 +15,27 @@ services:
             - .:/data #tentando arrumar novamente o volumes
 
 
+    # metabasePart:
+    #     image: metabase/metabase:latest
+    #     container_name: metabase
+    #     restart: always
+    #     environment:
+    #         MB_DB_TYPE: mongodb
+    #         MB_DB_DBNAME: metabase
+    #         MB_DB_PORT: 27017
+    #         MB_DB_USER: lappis
+    #         MB_DB_PASS: lappis
+    #         MB_DB_HOST: mongodb
+    #         MB_DB_FILE: /metabase-data/metabase.db
+    #     depends_on:
+    #         - mongodb
+    #     volumes:
+    #         - .:/metabase
+    #     ports:
+    #         - 3000:3000
+    
+
+
     aplicationPart: #para rodar essa parte, "docker run -it app:final bash"
         image: app:final
         build:
@@ -26,6 +47,9 @@ services:
      
         depends_on:
             - mongodb
+
+
+    
 
 #### A PARTE DE BAIXO É UM PROCESSO PARA CONECTAR O METABASE COM A BASE DE DADOS. NÃO CONSEGUI REALIZAR A CONEXÂO COM O MONGO, APENAS COM O POSTGRESS. COMO O PROJETO PEDE MONGO DB, DEIXEI APENAS O MONGO. MAS SE RETIRAR OS COMENTARIOS TUDO FUNCIONA PERFEITAMENTE INCLUINDO O POSTGRESS. POR FAVOR, CONSIDERAR <3 ######
 
