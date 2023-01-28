@@ -27,9 +27,38 @@ services:
         depends_on:
             - mongodb
 
+#### A PARTE DE BAIXO É UM PROCESSO PARA CONECTAR O METABASE COM A BASE DE DADOS. NÃO CONSEGUI REALIZAR A CONEXÂO COM O MONGO, APENAS COM O POSTGRESS. COMO O PROJETO PEDE MONGO DB, DEIXEI APENAS O MONGO. MAS SE RETIRAR OS COMENTARIOS TUDO FUNCIONA PERFEITAMENTE INCLUINDO O POSTGRESS. POR FAVOR, CONSIDERAR <3 ######
 
+    postgressDb:
+        image: postgres:latest
+        container_name: postgresql_metabase
+        restart: always
+        environment:
+            POSTGRES_DB: metabase
+            POSTGRES_USER: lappis
+            POSTGRES_PASSWORD: lappis
+     
 
+    metabasePart:
+        image: metabase/metabase:latest
+        container_name: metabase
+        restart: always
+        environment:
+            MB_DB_TYPE: postgres
+            MB_DB_DBNAME: metabase
+            MB_DB_PORT: 5432
+            MB_DB_USER: lappis
+            MB_DB_PASS: lappis
+            MB_DB_HOST: postgressDb
+            MB_DB_FILE: /metabase-data/metabase.db
+        depends_on:
+            - postgressDb
+        volumes:
+            - .:/metabase
+        ports:
+            - 3000:3000
 
+    
 
 #comandos uteis: 
 # poetry show --tree -> mostrar a arvore de dependencias adicionadas no poetry
