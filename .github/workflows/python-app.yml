@@ -32,7 +32,7 @@ jobs:
         python -m pip install poetry
 
     - name: start container
-      run: container-compose up
+      run: container-compose up -d
 
     - name: Test with pytest
       run: |
