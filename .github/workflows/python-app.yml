@@ -30,3 +30,9 @@ jobs:
     - name: install poetry
       run: |
         python -m pip install poetry
+
+    - name: Test with pytest
+      run: |
+        pip install pytest
+        export PYTHONPATH=src
+        pytest --cov
