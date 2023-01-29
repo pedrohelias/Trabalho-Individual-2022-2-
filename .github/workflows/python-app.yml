@@ -18,10 +18,10 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: Set up Python 3.9
+    - name: Set up Python 3.8
       uses: actions/setup-python@v4
       with:
-        python-version: "3.9"
+        python-version: 3.8
     - name: Install dependencies
       run: |
         python3 -m pip install --upgrade pip
@@ -30,8 +30,9 @@ jobs:
     - name: install poetry
       run: |
         python -m pip install poetry
-        
-    - name: Install dependencies of poetry
-      run: |
-        python -m poetry install
 
+    - name: Test with pytest
+      run: |
+        pip install pytest
+        export PYTHONPATH=src
+        pytest --cov
